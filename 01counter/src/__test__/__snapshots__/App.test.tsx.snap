@@ -1,0 +1,36 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`App Component > matches snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="card"
+  >
+    <h1>
+      Counter App
+    </h1>
+    <h2>
+      count is 
+      <span
+        data-testid="counter-value"
+      >
+        0
+      </span>
+    </h2>
+    <button
+      class="px-4 py-2 rounded bg-blue-500 text-white hover:bg-blue-600 disabled:bg-gray-400"
+    >
+      Decrease
+    </button>
+    <button
+      class="px-4 py-2 rounded bg-blue-500 text-white hover:bg-blue-600 disabled:bg-gray-400"
+    >
+      Reset
+    </button>
+    <button
+      class="px-4 py-2 rounded bg-blue-500 text-white hover:bg-blue-600 disabled:bg-gray-400"
+    >
+      Increase
+    </button>
+  </div>
+</DocumentFragment>
+`;
